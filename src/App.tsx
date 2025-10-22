@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectsSection from "./components/ProjectsSection";
 import ExperienceSection from "./components/ExperienceSection";
-import CVSection from "./components/CvSection";
+import CvSection from "./components/CvSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import PersonalInfo from "./components/PersonalInfo";
@@ -25,7 +25,7 @@ const App: React.FC = () => {
       <PersonalInfo />
       <ProjectsSection projects={projects} />
       <ExperienceSection experiences={experiences} />
-      <CVSection />
+      <CvSection />
       <ContactSection />
       <Footer />
     </main>
