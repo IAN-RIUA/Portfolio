@@ -1,6 +1,6 @@
 import React from "react";
 
-const CVSection: React.FC = () => {
+const CvSection: React.FC = () => {
   return (
     <section className="max-w-5xl mx-auto py-16 px-6 text-center">
       <h2 className="text-3xl font-semibold text-[#14B8A6] mb-6">My CV</h2>
@@ -25,4 +25,4 @@ const CVSection: React.FC = () => {
   );
 };
 
-export default CVSection;
+export default CvSection;
