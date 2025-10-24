@@ -15,11 +15,11 @@ const CvSection: React.FC = () => {
 </a>
 
       <div className="mt-8">
-        <iframe
-          src="/CV_2025.pdf"
-          className="w-full h-[800px] border border-[#1E293B] rounded-xl"
-          title="Ian Riua CV"
-        ></iframe>
+        <div className="rounded-lg bg-red p-4">
+        <a href="/../public/Ian_Ruiam_CV.pdf" target="_blank" rel="noopener noreferrer" className="text-[#14B8A6] underline hover:text-[#FACC15]s">
+          Download my cv here
+        </a>
+        </div>
       </div>
     </section>
   );
