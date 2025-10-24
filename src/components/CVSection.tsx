@@ -7,12 +7,12 @@ const CvSection: React.FC = () => {
       <p className="text-[#94A3B8] mb-4">Download or view my full CV below.</p>
 
       <a
-        href="/CV_2025.pdf"
-        download
-        className="bg-[#14B8A6] text-[#0B0F19] px-6 py-3 rounded-full font-semibold hover:bg-[#FACC15] transition duration-300"
-      >
-        Download CV
-      </a>
+  href="https://onedrive.live.com/download?cid=XXXXXXXXXXXXX&id=XXXXXXXXXXXXX%21123"
+  download
+  className="bg-[#14B8A6] text-[#0B0F19] px-6 py-3 rounded-full font-semibold hover:bg-[#FACC15] transition duration-300"
+>
+  Download CV
+</a>
 
       <div className="mt-8">
         <iframe
